@@ -1,0 +1,183 @@
+---
+const creations = [
+  { name: 'Deep\nEarth', desktop: '/images/desktop/image-deep-earth.jpg', mobile: '/images/mobile/image-deep-earth.jpg' },
+  { name: 'Night\nArcade', desktop: '/images/desktop/image-night-arcade.jpg', mobile: '/images/mobile/image-night-arcade.jpg' },
+  { name: 'Soccer\nTeam VR', desktop: '/images/desktop/image-soccer-team.jpg', mobile: '/images/mobile/image-soccer-team.jpg' },
+  { name: 'The\nGrid', desktop: '/images/desktop/image-grid.jpg', mobile: '/images/mobile/image-grid.jpg' },
+  { name: 'From Up\nAbove VR', desktop: '/images/desktop/image-from-above.jpg', mobile: '/images/mobile/image-from-above.jpg' },
+  { name: 'Pocket\nBorealis', desktop: '/images/desktop/image-pocket-borealis.jpg', mobile: '/images/mobile/image-pocket-borealis.jpg' },
+  { name: 'The\nCuriosity', desktop: '/images/desktop/image-curiosity.jpg', mobile: '/images/mobile/image-curiosity.jpg' },
+  { name: 'Make It\nFisheye', desktop: '/images/desktop/image-fisheye.jpg', mobile: '/images/mobile/image-fisheye.jpg' },
+];
+---
+<section class="section">
+
+<div class="container">
+
+<!-- HEADER -->
+
+<div class="flex justify-between items-center mb-16">
+
+<h2 class="heading text-[32px] md:text-[48px]">
+OUR CREATIONS
+</h2>
+
+<!-- BOTON DESKTOP -->
+
+<button class="hidden md:block border px-10 py-3 tracking-[4px] text-sm hover:bg-black hover:text-white transition">
+SEE ALL
+</button>
+
+</div>
+
+
+<!-- GRID -->
+
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+
+
+<div class="relative h-[120px] md:h-[450px] overflow-hidden">
+
+<picture>
+<source media="(min-width:768px)" srcset="/images/desktop/image-deep-earth.jpg">
+<img src="/images/mobile/image-deep-earth.jpg" class="w-full h-full object-cover">
+</picture>
+
+<div class="absolute inset-0 bg-black/30"></div>
+
+<p class="heading absolute bottom-4 left-4 text-white text-[22px] md:text-[32px] leading-tight">
+DEEP <br> EARTH
+</p>
+
+</div>
+
+
+<div class="relative h-[120px] md:h-[450px] overflow-hidden">
+
+<picture>
+<source media="(min-width:768px)" srcset="/images/desktop/image-night-arcade.jpg">
+<img src="/images/mobile/image-night-arcade.jpg" class="w-full h-full object-cover">
+</picture>
+
+<div class="absolute inset-0 bg-black/30"></div>
+
+<p class="heading absolute bottom-4 left-4 text-white text-[22px] md:text-[32px] leading-tight">
+NIGHT <br> ARCADE
+</p>
+
+</div>
+
+
+
+<div class="relative h-[120px] md:h-[450px] overflow-hidden">
+
+<picture>
+<source media="(min-width:768px)" srcset="/images/desktop/image-soccer-team.jpg">
+<img src="/images/mobile/image-soccer-team.jpg" class="w-full h-full object-cover">
+</picture>
+
+<div class="absolute inset-0 bg-black/30"></div>
+
+<p class="heading absolute bottom-4 left-4 text-white text-[22px] md:text-[32px] leading-tight">
+SOCCER <br> TEAM VR
+</p>
+
+</div>
+
+
+
+<div class="relative h-[120px] md:h-[450px] overflow-hidden">
+
+<picture>
+<source media="(min-width:768px)" srcset="/images/desktop/image-grid.jpg">
+<img src="/images/mobile/image-grid.jpg" class="w-full h-full object-cover">
+</picture>
+
+<div class="absolute inset-0 bg-black/30"></div>
+
+<p class="heading absolute bottom-4 left-4 text-white text-[22px] md:text-[32px] leading-tight">
+THE <br> GRID
+</p>
+
+</div>
+
+
+<div class="relative h-[120px] md:h-[450px] overflow-hidden">
+
+<picture>
+<source media="(min-width:768px)" srcset="/images/desktop/image-from-above.jpg">
+<img src="/images/mobile/image-from-above.jpg" class="w-full h-full object-cover">
+</picture>
+
+<div class="absolute inset-0 bg-black/30"></div>
+
+<p class="heading absolute bottom-4 left-4 text-white text-[22px] md:text-[32px] leading-tight">
+FROM UP <br> ABOVE VR
+</p>
+
+</div>
+
+
+<div class="relative h-[120px] md:h-[450px] overflow-hidden">
+
+<picture>
+<source media="(min-width:768px)" srcset="/images/desktop/image-pocket-borealis.jpg">
+<img src="/images/mobile/image-pocket-borealis.jpg" class="w-full h-full object-cover">
+</picture>
+
+<div class="absolute inset-0 bg-black/30"></div>
+
+<p class="heading absolute bottom-4 left-4 text-white text-[22px] md:text-[32px] leading-tight">
+POCKET <br> BOREALIS
+</p>
+
+</div>
+
+
+<div class="relative h-[120px] md:h-[450px] overflow-hidden">
+
+<picture>
+<source media="(min-width:768px)" srcset="/images/desktop/image-curiosity.jpg">
+<img src="/images/mobile/image-curiosity.jpg" class="w-full h-full object-cover">
+</picture>
+
+<div class="absolute inset-0 bg-black/30"></div>
+
+<p class="heading absolute bottom-4 left-4 text-white text-[22px] md:text-[32px] leading-tight">
+THE <br> CURIOSITY
+</p>
+
+</div>
+
+
+<div class="relative h-[120px] md:h-[450px] overflow-hidden">
+
+<picture>
+<source media="(min-width:768px)" srcset="/images/desktop/image-fisheye.jpg">
+<img src="/images/mobile/image-fisheye.jpg" class="w-full h-full object-cover">
+</picture>
+
+<div class="absolute inset-0 bg-black/30"></div>
+
+<p class="heading absolute bottom-4 left-4 text-white text-[22px] md:text-[32px] leading-tight">
+MAKE IT <br> FISHEYE
+</p>
+
+</div>
+
+</div>
+
+
+<!-- BOTON MOVIL -->
+
+<div class="flex justify-center mt-10 md:hidden">
+
+<button class="border px-10 py-3 tracking-[4px] text-sm hover:bg-black hover:text-white transition">
+SEE ALL
+</button>
+
+</div>
+
+
+</div>
+</section>

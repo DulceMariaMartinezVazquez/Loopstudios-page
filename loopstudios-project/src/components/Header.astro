@@ -1,0 +1,71 @@
+---
+---
+
+<header class="absolute w-full z-50">
+
+<div class="container flex justify-between items-center py-8">
+
+<img src="/images/logo.svg" class="w-40"/>
+
+<button id="menuBtn" class="md:hidden">
+<img src="/images/icon-hamburger.svg"/>
+</button>
+
+<nav class="hidden md:flex gap-8 text-white">
+
+<a>About</a>
+<a>Careers</a>
+<a>Events</a>
+<a>Products</a>
+<a>Support</a>
+
+</nav>
+
+</div>
+
+<!-- MOBILE MENU -->
+
+<div id="mobileMenu" class="fixed inset-0 bg-black text-white hidden">
+
+<div class="flex justify-between items-center p-8">
+
+<img src="/images/logo.svg" class="w-40"/>
+
+<button id="closeMenu">
+<img src="/images/icon-close.svg"/>
+</button>
+
+</div>
+
+<nav class="flex flex-col gap-8 text-3xl px-8 mt-20 heading">
+
+<a>ABOUT</a>
+<a>CAREERS</a>
+<a>EVENTS</a>
+<a>PRODUCTS</a>
+<a>SUPPORT</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<script>
+
+const menuBtn = document.getElementById("menuBtn")
+const mobileMenu = document.getElementById("mobileMenu")
+const closeMenu = document.getElementById("closeMenu")
+
+if(menuBtn && mobileMenu && closeMenu){
+
+menuBtn.addEventListener("click",()=>{
+mobileMenu.classList.remove("hidden")
+})
+
+closeMenu.addEventListener("click",()=>{
+mobileMenu.classList.add("hidden")
+})
+
+}
+</script>

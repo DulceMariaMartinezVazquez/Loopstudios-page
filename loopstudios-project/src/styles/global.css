@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body{
+font-family: 'Alata', sans-serif;
+font-size:15px;
+color:black;
+background:white;
+}
+
+.container{
+max-width:1110px;
+margin:auto;
+padding-left:24px;
+padding-right:24px;
+}
+
+.section{
+margin-top:160px;
+}
+
+.heading{
+font-family:'Josefin Sans',sans-serif;
+font-weight:300;
+text-transform:uppercase;
+}
+
+.card-overlay{
+background:linear-gradient(to top,rgba(0,0,0,0.7),transparent);
+}
